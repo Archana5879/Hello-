@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="loginstyle.css">
+</head>
 <body>
-<h1><center>Login Page</center></h1>
-<hr>
-<form>
-<fieldset>
-<legend>Login</legend>
-<label>UserName</label>
-<input type="text"><br>
-<label>password</label>
-<input type="text"name="password"><br>
-<a href="password.html">forgot password?</a><br>
-<button>Login</button><br>
-Don't have an account?<br>
-<a href="Signup.html">clickhere</a>for signup<br>
-</fieldset>
-</form>
+  	<header><h1>Login Page</h1></header>	
+  <main>
+  	<div>
+  		<h2>Login</h2>
+  		<form action="get">
+  		<label for="username" class="name" >Username:</label>
+  		<input type="text" name="username" required>
+  		<label for="password" class="pass">Password:</label>
+  		<input type="password" name="password" required>
+  		<br>
+  		<label for="forgot">forgot password <a href="passwordpage.html" target="_blank">click here</a></label>
+  		<input type="button" value="Login">
+  		<br>
+  		<label>Don't have an account? <a href="signup.html" target="_blank">click here</a> for Signup</label>
+  	</form>
+  	</div>
+  	<footer><h3>&copy;Copy rights 2024</h3></footer>
+  </main>
 </body>
 </html>
