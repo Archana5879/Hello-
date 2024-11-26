@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Signup Page</title>
+	<link rel="stylesheet" type="text/css" href="signupstyle.css">
+
+</head>
+<body>
+  <header><h1>Signup Page</h1></header>
+  <main>
+  	<div id="main-con">
+  		<h1>Signup</h1>
+  		<form action="get">
+  			<label for="fname" >First name:</label>
+  		<input type="text" name="fname" required title="Enter your first name">
+
+  		<label for="lname" >Last name:</label>
+  		<input type="text" name="lname" required title="Enter your last name">
+
+  		<label for="email" >Email:</label>
+  		<input type="email" name="email" required title="Enter your email">
+
+  		<label for="dob">Date of Birth:</label>
+  		<input type="Date" required name="dob" >
+
+        <label for="gender">Gender:</label>
+        <div id="gender-options">
+             <input type="radio" name="gender" value="male">Male
+           <input type="radio" name="gender" value="female" checked>Female
+          <input type="radio" name="gender" value="others">Others    </div>       
+  	   <label for="phone" >Phone Number:</label>
+  		<input type="number" name="phone" maxlength="10" required title="enter your phone number">
+
+  		<label for="password">Password:</label>
+  		<input type="password" name="password" required>
+
+
+  		<label for="confirmpass">Confirm Password:</label>
+  		<input type="password" name="confirmpass" required>
+
+  		<button value="Signup">Signup</button>
+         
+         <label for="goback">Already have an account? <a href="Login.html" target="_blank">Click here </a></label>
+  		</form>
+  	</div>
+  </main>
+  <footer><h2>&copy;Copy rights 2024</h2></footer>
+
+</body>
+</html>
